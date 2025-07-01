@@ -45,13 +45,13 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201 | ✅ |
 | TTK Volgograd | Volgograd | speed-vgd.vtt.net | 5201 | ❌ |
 | TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
-| TTK Saratov | Saratov | speed.vtt.net | 5201 | ❌ |
+| TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 01.07.2025 14:24:31 (MSK, UTC+3)
+📅 **Latest test:** 01.07.2025 14:50:36 (MSK, UTC+3)
 
-✅ **Available**: 31/33 servers
+✅ **Available**: 32/33 servers
 
-❌ **Unavailable**: 2/33 servers
+❌ **Unavailable**: 1/33 servers
 
-⏱️ **Execution time**: 17.0 seconds
+⏱️ **Execution time**: 18.6 seconds
 
