@@ -67,7 +67,7 @@ async def run_iperf3(address, port, timeout=IPERF3_TIMEOUT):
     except Exception as e:
         return False, str(e)
 
-async def test_server(server, semaphore, results_dict):
+async def test_server(server, semaphore):
     """Optimized version of server testing"""
     async with semaphore:
         address = server['address']
@@ -81,7 +81,6 @@ async def test_server(server, semaphore, results_dict):
         if not port_open:
             status = "❌ (port closed)"
             print(f"{test_line} {status}")
-            results_dict[server_name] = (False, status)
             return False
 
         for attempt in range(1, RETRY_ATTEMPTS + 1):
@@ -93,23 +92,21 @@ async def test_server(server, semaphore, results_dict):
                     status = "✅"
                 
                 print(f"{test_line} {status}")
-                results_dict[server_name] = (True, status)
                 return True
             elif attempt < RETRY_ATTEMPTS:
+                print(f"{test_line} ❌ attempt {attempt}: {error_msg}")
                 await asyncio.sleep(RETRY_DELAY)
 
-        status = f"❌ ({RETRY_ATTEMPTS} attempts)"
+        status = f"❌ ({RETRY_ATTEMPTS} attempts) - {error_msg}"
         print(f"{test_line} {status}")
-        results_dict[server_name] = (False, status)
         return False
 
 async def test_all_servers(servers, max_concurrent=MAX_CONCURRENT):
     """Asynchronously tests all servers"""
     semaphore = asyncio.Semaphore(max_concurrent)
-    results_dict = {}
       
     tasks = [
-        asyncio.create_task(test_server(server, semaphore, results_dict))
+        asyncio.create_task(test_server(server, semaphore))
         for server in servers
     ]
     
@@ -117,7 +114,6 @@ async def test_all_servers(servers, max_concurrent=MAX_CONCURRENT):
     
     for i, server in enumerate(servers):
         if isinstance(results[i], Exception):
-            print(f"Critical error during testing {server['Name']}: {results[i]}")
             server['status'] = False
         else:
             server['status'] = results[i]
