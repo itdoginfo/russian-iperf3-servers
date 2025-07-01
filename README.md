@@ -44,14 +44,14 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Chelyabinsk | Chelyabinsk | st.chel.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201 | ✅ |
 | TTK Volgograd | Volgograd | speed-vgd.vtt.net | 5201 | ❌ |
-| TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
+| TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ❌ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 01.07.2025 14:50:36 (MSK, UTC+3)
+📅 **Latest test:** 01.07.2025 15:35:29 (MSK, UTC+3)
 
-✅ **Available**: 32/33 servers
+✅ **Available**: 31/33 servers
 
-❌ **Unavailable**: 1/33 servers
+❌ **Unavailable**: 2/33 servers
 
-⏱️ **Execution time**: 18.6 seconds
+⏱️ **Execution time**: 15.3 seconds
 
