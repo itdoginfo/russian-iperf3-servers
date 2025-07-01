@@ -3,7 +3,7 @@
 import yaml
 import asyncio
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 PORT_CHECK_TIMEOUT = 3
 IPERF3_TIMEOUT = 8
@@ -150,11 +150,12 @@ def generate_readme(servers, duration):
         status_emoji = '✅' if server.get('status', False) else '❌'
         content += f"| {server['Name']} | {server['City']} | {server['address']} | {server.get('port', 5201)} | {status_emoji} |\n"
     
-    current_time = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
+    MSK = timezone(timedelta(hours=3))
+    current_time = datetime.now(MSK).strftime("%d.%m.%Y %H:%M:%S")
     available = sum(1 for s in servers if s.get('status', False))
     total = len(servers)
     
-    content += f"\n📅 **Latest test:** {current_time}\n\n"
+    content += f"\n📅 **Latest test:** {current_time} (MSK, UTC+3)\n\n"
     content += f"✅ **Available**: {available}/{total} servers\n\n"
     content += f"❌ **Unavailable**: {total - available}/{total} servers\n\n"
     content += f"⏱️ **Execution time**: {duration:.1f} seconds\n\n"
