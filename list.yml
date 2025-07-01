@@ -1,0 +1,140 @@
+- Name: Ertelecom Barnaul
+  City: Barnaul
+  address: st.barnaul.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Yekaterinburg
+  City: Yekaterinburg
+  address: st.ekat.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Izhevsk
+  City: Izhevsk
+  address: st.izhevsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Irkutsk
+  City: Irkutsk
+  address: st.irkutsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Yoshkar-Ola
+  City: Yoshkar-Ola
+  address: st.yola.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Kazan
+  City: Kazan
+  address: st.kzn.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Kirov
+  City: Kirov
+  address: st.kirov.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Krasnoyarsk
+  City: Krasnoyarsk
+  address: st.krsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Kurgan
+  City: Kurgan
+  address: st.kurgan.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Kursk
+  City: Kursk
+  address: st.kursk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Magnitogorsk
+  City: Magnitogorsk
+  address: st.mgn.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Naberezhnye Chelny
+  City: Naberezhnye Chelny
+  address: st.chelny.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Novokuznetsk
+  City: Novokuznetsk
+  address: st.nk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Omsk
+  City: Omsk
+  address: st.omsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Orenburg
+  City: Orenburg
+  address: st.oren.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Penza
+  City: Penza
+  address: st.penza.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Perm
+  City: Perm
+  address: st.perm.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Rostov-on-Don
+  City: Rostov-on-Don
+  address: st.rostov.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Ryazan
+  City: Ryazan
+  address: st.ryazan.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Samara
+  City: Samara
+  address: st.samara.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Saint Petersburg
+  City: Saint Petersburg
+  address: st.spb.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Saratov
+  City: Saratov
+  address: st.saratov.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Tver
+  City: Tver
+  address: st.tver.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Tomsk
+  City: Tomsk
+  address: st.tomsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Tula
+  City: Tula
+  address: st.tula.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Tyumen
+  City: Tyumen
+  address: st.tmn.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Ulyanovsk
+  City: Ulyanovsk
+  address: st.ulsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Ufa
+  City: Ufa
+  address: st.ufa.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Cheboksary
+  City: Cheboksary
+  address: st.cheb.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Chelyabinsk
+  City: Chelyabinsk
+  address: st.chel.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Yaroslavl
+  City: Yaroslavl
+  address: st.yar.ertelecom.ru
+  port: 5201
+- Name: Hostkey Moscow
+  City: Moscow
+  address: spd-rudp.hostkey.ru
+  port: 5201
+- Name: TTK Volgograd
+  City: Volgograd
+  address: speed-vgd.vtt.net
+  port: 5201
+- Name: TTK Nizhny Novgorod
+  City: Nizhny Novgorod
+  address: speed-nn.vtt.net
+  port: 5201
+- Name: TTK Saratov
+  City: Saratov
+  address: speed.vtt.net
+  port: 5201
