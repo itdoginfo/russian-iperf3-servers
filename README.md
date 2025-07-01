@@ -17,7 +17,6 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Yoshkar-Ola | Yoshkar-Ola | st.yola.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Kirov | Kirov | st.kirov.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Krasnoyarsk | Krasnoyarsk | st.krsk.ertelecom.ru | 5201 | ✅ |
@@ -44,16 +43,15 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Cheboksary | Cheboksary | st.cheb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Chelyabinsk | Chelyabinsk | st.chel.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201 | ✅ |
-| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201 | ❌ |
 | TTK Volgograd | Volgograd | speed-vgd.vtt.net | 5201 | ❌ |
 | TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 01.07.2025 10:34:39
+📅 **Latest test:** 01.07.2025 10:37:58
 
-✅ **Available**: 32/35 servers
+✅ **Available**: 32/33 servers
 
-❌ **Unavailable**: 3/35 servers
+❌ **Unavailable**: 1/33 servers
 
-⏱️ **Execution time**: 29.0 seconds
+⏱️ **Execution time**: 16.4 seconds
 
