@@ -14,10 +14,6 @@
   City: Irkutsk
   address: st.irkutsk.ertelecom.ru
   port: 5201
-- Name: Ertelecom Yoshkar-Ola
-  City: Yoshkar-Ola
-  address: st.yola.ertelecom.ru
-  port: 5201
 - Name: Ertelecom Kazan
   City: Kazan
   address: st.kzn.ertelecom.ru
@@ -121,10 +117,6 @@
 - Name: Ertelecom Yaroslavl
   City: Yaroslavl
   address: st.yar.ertelecom.ru
-  port: 5201
-- Name: Hostkey Moscow
-  City: Moscow
-  address: spd-rudp.hostkey.ru
   port: 5201
 - Name: TTK Volgograd
   City: Volgograd

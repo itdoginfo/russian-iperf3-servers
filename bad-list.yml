@@ -22,6 +22,10 @@
   City: Novosibirsk
   address: st.nsk.ertelecom.ru
   port: 5201
+- Name: Ertelecom Yoshkar-Ola
+  City: Yoshkar-Ola
+  address: st.yola.ertelecom.ru
+  port: 5201
 - Name: TTK Ufa
   City: Ufa
   address: speed-ufa.vtt.net
@@ -37,4 +41,8 @@
 - Name: TTK Vladimir
   City: Vladimir
   address: speed-vld.vtt.net
+  port: 5201
+- Name: Hostkey Moscow
+  City: Moscow
+  address: spd-rudp.hostkey.ru
   port: 5201
