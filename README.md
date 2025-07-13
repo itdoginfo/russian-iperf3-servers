@@ -22,7 +22,7 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Krasnoyarsk | Krasnoyarsk | st.krsk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Kurgan | Kurgan | st.kurgan.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Kursk | Kursk | st.kursk.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Magnitogorsk | Magnitogorsk | st.mgn.ertelecom.ru | 5201 | ✅ |
+| Ertelecom Magnitogorsk | Magnitogorsk | st.mgn.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Naberezhnye Chelny | Naberezhnye Chelny | st.chelny.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Novokuznetsk | Novokuznetsk | st.nk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Omsk | Omsk | st.omsk.ertelecom.ru | 5201 | ✅ |
@@ -47,11 +47,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 12.07.2025 07:48:02 (MSK, UTC+3)
+📅 **Latest test:** 13.07.2025 07:52:01 (MSK, UTC+3)
 
-✅ **Available**: 33/33 servers
+✅ **Available**: 32/33 servers
 
-❌ **Unavailable**: 0/33 servers
+❌ **Unavailable**: 1/33 servers
 
-⏱️ **Execution time**: 14.6 seconds
+⏱️ **Execution time**: 17.2 seconds
 
