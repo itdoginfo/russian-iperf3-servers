@@ -31,7 +31,7 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Perm | Perm | st.perm.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201 | ✅ |
+| Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201 | ✅ |
@@ -47,11 +47,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 14.07.2025 07:56:25 (MSK, UTC+3)
+📅 **Latest test:** 15.07.2025 07:55:06 (MSK, UTC+3)
 
-✅ **Available**: 33/33 servers
+✅ **Available**: 32/33 servers
 
-❌ **Unavailable**: 0/33 servers
+❌ **Unavailable**: 1/33 servers
 
-⏱️ **Execution time**: 18.4 seconds
+⏱️ **Execution time**: 33.5 seconds
 
