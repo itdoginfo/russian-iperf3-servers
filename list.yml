@@ -130,3 +130,47 @@
   City: Saratov
   address: speed.vtt.net
   port: 5201
+- Name: Ertelecom Bryansk
+  City: Bryansk
+  address: st.bryansk.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Voronezh
+  City: Voronezh
+  address: st.voronezh.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Volgograd
+  City: Volgograd
+  address: st.volgograd.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Yoshkar-Ola
+  City: Yoshkar-Ola
+  address: st.yola.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Lipetsk
+  City: Lipetsk
+  address: st.lipetsk.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Nizhny Novgorod
+  City: Nizhny Novgorod
+  address: st.nn.ertelecom.ru
+  port: 5201
+
+- Name: Ertelecom Novosibirsk
+  City: Novosibirsk
+  address: st.nsk.ertelecom.ru
+  port: 5201
+
+- Name: Beeline Voronezh
+  City: Voronezh
+  address: voronezh-speedtest.corbina.net
+  port: 5201
+
+- Name: Beeline Astrakhan
+  City: Astrakhan
+  address: astrakhan1.speedtest.corbina.net
+  port: 5201
