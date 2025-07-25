@@ -47,11 +47,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 
-📅 **Latest test:** 24.07.2025 07:55:38 (MSK, UTC+3)
+📅 **Latest test:** 25.07.2025 07:56:24 (MSK, UTC+3)
 
 ✅ **Available**: 33/33 servers
 
 ❌ **Unavailable**: 0/33 servers
 
-⏱️ **Execution time**: 14.4 seconds
+⏱️ **Execution time**: 14.9 seconds
 
