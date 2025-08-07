@@ -53,13 +53,13 @@ We need more servers! Please create an issue or PR if you know of others.
 | TTK Saransk | Saransk | speed-sar.vtt.net | 5201 | ✅ |
 | Beeline Voronezh | Voronezh | voronezh-speedtest.corbina.net | 5201 | ✅ |
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
-| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201,5202,5203,5204,5205,5206,5207,5208,5209 | ✅ |
+| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 08.08.2025 00:44:08 (MSK, UTC+3)
+📅 **Latest test:** 08.08.2025 00:55:10 (MSK, UTC+3)
 
 ✅ **Available**: 37/41 servers
 
 ❌ **Unavailable**: 4/41 servers
 
-⏱️ **Execution time**: 54.1 seconds
+⏱️ **Execution time**: 54.0 seconds
 
