@@ -176,7 +176,13 @@ def generate_readme(servers, duration):
     for server in servers:
         status_emoji = '✅' if server.get('status', False) else '❌'
         passed_ports = server.get('passed_ports', [])
-        port_display = "<br>".join(map(str, passed_ports)) if passed_ports else "-"
+        
+        if server.get('status', False):
+            port_display = "<br>".join(map(str, passed_ports))
+        else:
+            all_ports = parse_ports(server.get('port', 5201))
+            port_display = "<br>".join(map(str, all_ports))
+        
         content += (f"| {server['Name']} | {server['City']} | "
                    f"{server['address']} | {port_display} | {status_emoji} |\n")
     
