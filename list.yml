@@ -42,17 +42,9 @@
   City: Naberezhnye Chelny
   address: st.chelny.ertelecom.ru
   port: 5201
-- Name: Ertelecom Novokuznetsk
-  City: Novokuznetsk
-  address: st.nk.ertelecom.ru
-  port: 5201
 - Name: Ertelecom Omsk
   City: Omsk
   address: st.omsk.ertelecom.ru
-  port: 5201
-- Name: Ertelecom Orenburg
-  City: Orenburg
-  address: st.oren.ertelecom.ru
   port: 5201
 - Name: Ertelecom Penza
   City: Penza
@@ -118,6 +110,30 @@
   City: Yaroslavl
   address: st.yar.ertelecom.ru
   port: 5201
+- Name: Ertelecom Lipetsk
+  City: Lipetsk
+  address: st.lipetsk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Bryansk
+  City: Bryansk
+  address: st.bryansk.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Volgograd
+  City: Volgograd
+  address: st.volgograd.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Voronezh
+  City: Voronezh
+  address: st.voronezh.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Nizhny Novgorod
+  City: Nizhny Novgorod
+  address: st.nn.ertelecom.ru
+  port: 5201
+- Name: Ertelecom Yoshkar-Ola
+  City: Yoshkar-Ola
+  address: st.yola.ertelecom.ru
+  port: 5201
 - Name: TTK Volgograd
   City: Volgograd
   address: speed-vgd.vtt.net
@@ -130,3 +146,19 @@
   City: Saratov
   address: speed.vtt.net
   port: 5201
+- Name: TTK Saransk
+  City: Saransk
+  address: speed-sar.vtt.net
+  port: 5201
+- Name: Beeline Voronezh
+  City: Voronezh
+  address: voronezh-speedtest.corbina.net
+  port: 5201
+- Name: Beeline Astrakhan
+  City: Astrakhan
+  address: astrakhan1.speedtest.corbina.net
+  port: 5201
+- Name: Hostkey Moscow
+  City: Moscow
+  address: spd-rudp.hostkey.ru
+  port: 5201-5209
