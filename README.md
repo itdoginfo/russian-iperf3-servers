@@ -13,9 +13,9 @@ We need more servers! Please create an issue or PR if you know of others.
 
 | Name | City | Address | Port | Status |
 |------|------|---------|------|--------|
-| Ertelecom Barnaul | Barnaul | st.barnaul.ertelecom.ru | - | ❌ |
+| Ertelecom Barnaul | Barnaul | st.barnaul.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | - | ❌ |
+| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Kirov | Kirov | st.kirov.ertelecom.ru | 5201 | ✅ |
@@ -28,7 +28,7 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Penza | Penza | st.penza.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Perm | Perm | st.perm.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | - | ❌ |
+| Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201 | ✅ |
@@ -40,7 +40,7 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Cheboksary | Cheboksary | st.cheb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Chelyabinsk | Chelyabinsk | st.chel.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | - | ❌ |
+| Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Lipetsk | Lipetsk | st.lipetsk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Bryansk | Bryansk | st.bryansk.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Volgograd | Volgograd | st.volgograd.ertelecom.ru | 5201 | ✅ |
@@ -55,11 +55,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
 | Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 08.08.2025 00:55:10 (MSK, UTC+3)
+📅 **Latest test:** 08.08.2025 01:11:36 (MSK, UTC+3)
 
 ✅ **Available**: 37/41 servers
 
 ❌ **Unavailable**: 4/41 servers
 
-⏱️ **Execution time**: 54.0 seconds
+⏱️ **Execution time**: 54.2 seconds
 
