@@ -67,39 +67,70 @@ async def run_iperf3(address, port, timeout=IPERF3_TIMEOUT):
     except Exception as e:
         return False, str(e)
 
+def parse_ports(port_field):
+    if isinstance(port_field, int):
+        return [port_field]
+    
+    if not isinstance(port_field, str):
+        return [5201]
+    
+    s = port_field.strip()
+    if '-' in s:
+        start, end = map(int, s.split('-', 1))
+        return list(range(min(start, end), max(start, end) + 1))
+    
+    if ',' in s:
+        return [int(x.strip()) for x in s.split(',') if x.strip()]
+    
+    return [int(s)] if s else [5201]
+
 async def test_server(server, semaphore):
-    """Optimized version of server testing"""
     async with semaphore:
         address = server['address']
-        port = server.get('port', 5201)
+        ports = parse_ports(server.get('port', 5201))
         server_name = server['Name']
 
-        test_line = f"{server_name}"
+        passed_ports = []
+        failed_ports = []
 
-        port_open = await check_port_open(address, port)
-        
-        if not port_open:
-            status = "❌ (port closed)"
-            print(f"{test_line} {status}")
+        open_ports = []
+        for port in ports:
+            if await check_port_open(address, port):
+                open_ports.append(port)
+
+        if not open_ports:
+            print(f"{server_name} ❌ (all ports closed)")
+            server.update({'passed_ports': [], 'failed_ports': ports})
             return False
 
-        for attempt in range(1, RETRY_ATTEMPTS + 1):
-            success, error_msg = await run_iperf3(address, port)
-            if success:
-                if attempt > 1:
-                    status = f"✅ (attempt {attempt})"
-                else:
-                    status = "✅"
-                
-                print(f"{test_line} {status}")
-                return True
-            elif attempt < RETRY_ATTEMPTS:
-                print(f"{test_line} ❌ attempt {attempt}: {error_msg}")
-                await asyncio.sleep(RETRY_DELAY)
+        for port in open_ports:
+            success = False
+            last_error = None
 
-        status = f"❌ ({RETRY_ATTEMPTS} attempts) - {error_msg}"
-        print(f"{test_line} {status}")
-        return False
+            for attempt in range(1, RETRY_ATTEMPTS + 1):
+                success, error_msg = await run_iperf3(address, port)
+                if success:
+                    print(f"{server_name} ✅ (port {port})" + 
+                          (f", attempt {attempt}" if attempt > 1 else ""))
+                    passed_ports.append(port)
+                    break
+                else:
+                    last_error = error_msg
+                    if attempt < RETRY_ATTEMPTS:
+                        print(f"{server_name} ❌ attempt {attempt} on port {port}: {error_msg}")
+                        await asyncio.sleep(RETRY_DELAY)
+
+            if not success:
+                failed_ports.append(port)
+                if attempt == RETRY_ATTEMPTS:
+                    print(f"{server_name} ❌ port {port} failed: {last_error}")
+
+        server.update({
+            'passed_ports': passed_ports,
+            'failed_ports': failed_ports + [p for p in ports if p not in open_ports]
+        })
+
+        return bool(passed_ports)
 
 async def test_all_servers(servers, max_concurrent=MAX_CONCURRENT):
     """Asynchronously tests all servers"""
@@ -144,17 +175,19 @@ def generate_readme(servers, duration):
     
     for server in servers:
         status_emoji = '✅' if server.get('status', False) else '❌'
-        content += f"| {server['Name']} | {server['City']} | {server['address']} | {server.get('port', 5201)} | {status_emoji} |\n"
+        passed_ports = server.get('passed_ports', [])
+        port_display = ",".join(map(str, passed_ports)) if passed_ports else "-"
+        content += (f"| {server['Name']} | {server['City']} | "
+                   f"{server['address']} | {port_display} | {status_emoji} |\n")
     
-    MSK = timezone(timedelta(hours=3))
-    current_time = datetime.now(MSK).strftime("%d.%m.%Y %H:%M:%S")
     available = sum(1 for s in servers if s.get('status', False))
     total = len(servers)
+    current_time = datetime.now(timezone(timedelta(hours=3))).strftime("%d.%m.%Y %H:%M:%S")
     
-    content += f"\n📅 **Latest test:** {current_time} (MSK, UTC+3)\n\n"
-    content += f"✅ **Available**: {available}/{total} servers\n\n"
-    content += f"❌ **Unavailable**: {total - available}/{total} servers\n\n"
-    content += f"⏱️ **Execution time**: {duration:.1f} seconds\n\n"
+    content += (f"\n📅 **Latest test:** {current_time} (MSK, UTC+3)\n\n"
+               f"✅ **Available**: {available}/{total} servers\n\n"
+               f"❌ **Unavailable**: {total - available}/{total} servers\n\n"
+               f"⏱️ **Execution time**: {duration:.1f} seconds\n\n")
 
     try:
         with open('README.md', 'w', encoding='utf-8') as f:
@@ -163,7 +196,6 @@ def generate_readme(servers, duration):
         print(f"✅ Available: {available}/{total} servers")
         print(f"❌ Unavailable: {total - available}/{total} servers")
         print(f"⏱️ Execution time: {duration:.1f} seconds")
-        
     except Exception as e:
         print(f"Error creating README.md: {e}")
 
