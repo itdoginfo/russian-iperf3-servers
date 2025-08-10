@@ -28,7 +28,7 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Penza | Penza | st.penza.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Perm | Perm | st.perm.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201 | ❌ |
+| Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201 | ✅ |
@@ -55,11 +55,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
 | Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 09.08.2025 07:47:37 (MSK, UTC+3)
+📅 **Latest test:** 10.08.2025 07:55:44 (MSK, UTC+3)
 
-✅ **Available**: 39/41 servers
+✅ **Available**: 40/41 servers
 
-❌ **Unavailable**: 2/41 servers
+❌ **Unavailable**: 1/41 servers
 
-⏱️ **Execution time**: 55.6 seconds
+⏱️ **Execution time**: 56.0 seconds
 
