@@ -55,11 +55,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
 | Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 10.08.2025 07:55:44 (MSK, UTC+3)
+📅 **Latest test:** 11.08.2025 07:59:22 (MSK, UTC+3)
 
 ✅ **Available**: 40/41 servers
 
 ❌ **Unavailable**: 1/41 servers
 
-⏱️ **Execution time**: 56.0 seconds
+⏱️ **Execution time**: 50.3 seconds
 
