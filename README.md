@@ -34,10 +34,10 @@ We need more servers! Please create an issue or PR if you know of others.
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Tomsk | Tomsk | st.tomsk.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Tula | Tula | st.tula.ertelecom.ru | 5201 | ✅ |
+| Ertelecom Tula | Tula | st.tula.ertelecom.ru | 5201 | ❌ |
 | Ertelecom Tyumen | Tyumen | st.tmn.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Ulyanovsk | Ulyanovsk | st.ulsk.ertelecom.ru | 5201 | ✅ |
-| Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5201 | ❌ |
+| Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Cheboksary | Cheboksary | st.cheb.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Chelyabinsk | Chelyabinsk | st.chel.ertelecom.ru | 5201 | ✅ |
 | Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201 | ✅ |
@@ -55,11 +55,11 @@ We need more servers! Please create an issue or PR if you know of others.
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
 | Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 13.08.2025 07:48:38 (MSK, UTC+3)
+📅 **Latest test:** 14.08.2025 07:48:44 (MSK, UTC+3)
 
 ✅ **Available**: 39/41 servers
 
 ❌ **Unavailable**: 2/41 servers
 
-⏱️ **Execution time**: 52.4 seconds
+⏱️ **Execution time**: 48.9 seconds
 
