@@ -11,6 +11,12 @@ We need more servers! Please create an issue or PR if you know of others.
 
 ## Test script
 ```
+bash <(wget -qO- https://raw.githubusercontent.com/itdoginfo/russian-iperf3-servers/refs/heads/main/speedtest.sh)
+```
+
+Fast Mode
+```
+bash <(wget -qO- https://raw.githubusercontent.com/itdoginfo/russian-iperf3-servers/refs/heads/main/speedtest.sh) -f
 ```
 
 ### Dependencies
@@ -43,7 +49,7 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
+| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tomsk | Tomsk | st.tomsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -68,11 +74,11 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
 | Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 
-📅 **Latest test:** 15.08.2025 17:13:39 (MSK, UTC+3)
+📅 **Latest test:** 15.08.2025 17:22:13 (MSK, UTC+3)
 
 ✅ **Available**: 41/41 servers
 
 ❌ **Unavailable**: 0/41 servers
 
-⏱️ **Execution time**: 171.0 seconds
+⏱️ **Execution time**: 171.7 seconds
 
