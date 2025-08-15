@@ -9,4 +9,17 @@ List of public iPerf3 servers in Russia, checked daily for availability.
 ## Suggest more servers
 We need more servers! Please create an issue or PR if you know of others.
 
+## Test script
+```
+```
+
+### Dependencies
+- iperf3
+- jq
+- ping
+- awk
+
+### Fallback
+For each city, there is a primary and a fallback server. The test first checks the primary server across the port range 5201–5209, only if all ports fail does it fall back to the secondary server. In the results table, this is marked as "City (F)".
+
 ## Table of servers
