@@ -251,8 +251,8 @@ run_tests() {
 
 print_results() {
     echo
-    printf '🤝 \033[1;32m%s\033[0m \033[0;34m%s\033[0m\n' "From the community, for the community:" "https://github.com/itdoginfo/russian-iperf3-servers"
-    echo
+    printf '🤝 \033[1;32m%s\033[0m\n' "From the community, for the community:"
+    printf '\033[0;34m%s\033[0m\n\n' "https://github.com/itdoginfo/russian-iperf3-servers"
     printf "%-18s %-15s %-15s %-10s\n" "Server" "Download" "Upload" "Ping"
     printf "%-18s %-15s %-15s %-10s\n" "------" "--------" "------" "----"
     
