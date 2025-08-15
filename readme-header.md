@@ -11,6 +11,12 @@ We need more servers! Please create an issue or PR if you know of others.
 
 ## Test script
 ```
+bash <(wget -qO- https://raw.githubusercontent.com/itdoginfo/russian-iperf3-servers/refs/heads/main/speedtest.sh)
+```
+
+Fast Mode
+```
+bash <(wget -qO- https://raw.githubusercontent.com/itdoginfo/russian-iperf3-servers/refs/heads/main/speedtest.sh) -f
 ```
 
 ### Dependencies
