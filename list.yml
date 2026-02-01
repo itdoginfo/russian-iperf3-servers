@@ -162,3 +162,59 @@
   City: Moscow
   address: spd-rudp.hostkey.ru
   port: 5201-5209
+- Name: MTS MSK
+  City: Moscow
+  address: mskst.st.mtsws.net
+  port: 3333
+- Name: MTS SPB
+  City: Saint Petersburg
+  address: spbst.st.mtsws.net
+  port: 3333
+- Name: MTS Vologda
+  City: Vologda
+  address: volst.st.mtsws.net
+  port: 3333
+- Name: MTS Yaroslavl
+  City: Yaroslavl
+  address: yarst.st.mtsws.net
+  port: 3333
+- Name: MTS Krasnodar
+  City: Krasnodar
+  address: kndst.st.mtsws.net
+  port: 3333
+- Name: MTS Kazan
+  City: Kazan
+  address: kazst.st.mtsws.net
+  port: 3333
+- Name: MTS Tyumen
+  City: Tyumen
+  address: tumst.st.mtsws.net
+  port: 3333
+- Name: MTS Norilsk
+  City: Norilsk
+  address: norst.st.mtsws.net
+  port: 3333
+- Name: MTS Novosibirsk
+  City: Novosibirsk
+  address: nskst.st.mtsws.net
+  port: 3333
+- Name: MTS Irkutsk
+  City: Irkutsk
+  address: irkst.st.mtsws.net
+  port: 3333
+- Name: MTS Yakutsk
+  City: Yakutsk
+  address: yktst.st.mtsws.net
+  port: 3333
+- Name: MTS Vladivostok
+  City: Vladivostok
+  address: vldvst.st.mtsws.net
+  port: 3333
+- Name: MTS Sakhalin
+  City: Sakhalin
+  address: sahst.st.mtsws.net
+  port: 3333
+- Name: MTS Petropavlovsk-Kamchatsky
+  City: Petropavlovsk-Kamchatsky
+  address: pkst.st.mtsws.net
+  port: 3333
