@@ -18,6 +18,10 @@
   City: Kazan
   address: st.kzn.ertelecom.ru
   port: 5201-5209
+- Name: MTS Kazan
+  City: Kazan
+  address: kazst.st.mtsws.net
+  port: 3333
 - Name: Ertelecom Kirov
   City: Kirov
   address: st.kirov.ertelecom.ru
@@ -45,6 +49,18 @@
 - Name: Ertelecom Omsk
   City: Omsk
   address: st.omsk.ertelecom.ru
+  port: 5201-5209
+- Name: Ertelecom Novosibirsk
+  City: Novosibirsk
+  address: st.nsk.ertelecom.ru
+  port: 5201-5209
+- Name: Ertelecom Novokuznetsk
+  City: Novokuznetsk
+  address: st.nk.ertelecom.ru
+  port: 5201-5209
+- Name: Ertelecom Orenburg
+  City: Orenburg
+  address: st.oren.ertelecom.ru
   port: 5201-5209
 - Name: Ertelecom Penza
   City: Penza
@@ -90,6 +106,10 @@
   City: Tyumen
   address: st.tmn.ertelecom.ru
   port: 5201-5209
+- Name: MTS Tyumen
+  City: Tyumen
+  address: tumst.st.mtsws.net
+  port: 3333
 - Name: Ertelecom Ulyanovsk
   City: Ulyanovsk
   address: st.ulsk.ertelecom.ru
@@ -150,6 +170,10 @@
   City: Saransk
   address: speed-sar.vtt.net
   port: 5201
+- Name: TTK Vladimir
+  City: Vladimir
+  address: speed-vld.vtt.net
+  port: 5201
 - Name: Beeline Voronezh
   City: Voronezh
   address: voronezh-speedtest.corbina.net
@@ -162,3 +186,15 @@
   City: Moscow
   address: spd-rudp.hostkey.ru
   port: 5201-5209
+- Name: MTS Moscow
+  City: Moscow
+  address: mskst.st.mtsws.net
+  port: 3333
+- Name: MTS Krasnodar
+  City: Krasnodar
+  address: kndst.st.mtsws.net
+  port: 3333
+- Name: MTS Yakutsk
+  City: Yakutsk
+  address: yktst.st.mtsws.net
+  port: 3333

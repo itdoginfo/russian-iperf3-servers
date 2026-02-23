@@ -1,11 +1,3 @@
-- Name: Ertelecom Novosibirsk
-  City: Novosibirsk
-  address: st.nsk.ertelecom.ru
-  port: 5201
-- Name: Ertelecom Novokuznetsk
-  City: Novokuznetsk
-  address: st.nk.ertelecom.ru
-  port: 5201
 - Name: TTK Ufa
   City: Ufa
   address: speed-ufa.vtt.net
@@ -14,11 +6,35 @@
   City: Samara
   address: speed-sma.vtt.net
   port: 5201
-- Name: TTK Vladimir
-  City: Vladimir
-  address: speed-vld.vtt.net
-  port: 5201
-- Name: Ertelecom Orenburg
-  City: Orenburg
-  address: st.oren.ertelecom.ru
-  port: 5201
+- Name: MTS Norilsk
+  City: Norilsk
+  address: norst.st.mtsws.net
+  port: 3333
+- Name: MTS Yaroslavl
+  City: Yaroslavl
+  address: yarst.st.mtsws.net
+  port: 3333
+- Name: MTS Vladivostok
+  City: Vladivostok
+  address: vldvst.st.mtsws.net
+  port: 3333
+- Name: MTS Yuzhno-Sakhalinsk
+  City: Yuzhno-Sakhalinsk
+  address: sahst.st.mtsws.net
+  port: 3333
+- Name: MTS Petropavlovsk-Kamchatsky
+  City: Petropavlovsk-Kamchatsky
+  address: pkst.st.mtsws.net
+  port: 3333
+- Name: MTS Saint Petersburg
+  City: Saint Petersburg
+  address: spbst.st.mtsws.net
+  port: 3333
+- Name: MTS Novosibirsk
+  City: Novosibirsk
+  address: nskst.st.mtsws.net
+  port: 3333
+- Name: MTS Irkutsk
+  City: Irkutsk
+  address: irkst.st.mtsws.net
+  port: 3333
