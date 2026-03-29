@@ -36,21 +36,21 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208 | ✅ |
 | MTS Kazan | Kazan | kazst.st.mtsws.net | 3333 | ✅ |
 | Ertelecom Kirov | Kirov | st.kirov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Krasnoyarsk | Krasnoyarsk | st.krsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Kurgan | Kurgan | st.kurgan.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Kursk | Kursk | st.kursk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Magnitogorsk | Magnitogorsk | st.mgn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Naberezhnye Chelny | Naberezhnye Chelny | st.chelny.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
+| Ertelecom Naberezhnye Chelny | Naberezhnye Chelny | st.chelny.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Omsk | Omsk | st.omsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Novosibirsk | Novosibirsk | st.nsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Novokuznetsk | Novokuznetsk | st.nk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
+| Ertelecom Novosibirsk | Novosibirsk | st.nsk.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Novokuznetsk | Novokuznetsk | st.nk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Orenburg | Orenburg | st.oren.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Penza | Penza | st.penza.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Perm | Perm | st.perm.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5209 | ✅ |
 | Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -78,16 +78,16 @@ For each city, there is a primary and a fallback server. The test first checks t
 | TTK Vladimir | Vladimir | speed-vld.vtt.net | 5201 | ✅ |
 | Beeline Voronezh | Voronezh | voronezh-speedtest.corbina.net | 5201 | ✅ |
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
-| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Moscow | Moscow | mskst.st.mtsws.net | 3333 | ✅ |
 | MTS Krasnodar | Krasnodar | kndst.st.mtsws.net | 3333 | ✅ |
 | MTS Yakutsk | Yakutsk | yktst.st.mtsws.net | 3333 | ✅ |
 
-📅 **Latest test:** 28.03.2026 08:39:09 (MSK, UTC+3)
+📅 **Latest test:** 29.03.2026 08:56:41 (MSK, UTC+3)
 
 ✅ **Available**: 50/50 servers
 
 ❌ **Unavailable**: 0/50 servers
 
-⏱️ **Execution time**: 129.7 seconds
+⏱️ **Execution time**: 131.2 seconds
 
