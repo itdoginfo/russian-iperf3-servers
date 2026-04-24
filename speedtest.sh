@@ -85,7 +85,7 @@ start_spinner() {
         local chars=("⠇" "⠏" "⠋" "⠙" "⠹" "⠸" "⠼" "⠴" "⠦" "⠧")
         local i=0
         while true; do
-            printf "\r$message %s" "${chars[$i]}"
+            printf "\r\e[36m[ %s ]\e[0m %s" "${chars[$i]}" "$message"
             i=$(( (i + 1) % ${#chars[@]} ))
             sleep 0.15
         done
@@ -298,13 +298,48 @@ main() {
         esac
     done
     
-    # Check dependencies
-    for cmd in iperf3 jq awk ping; do
-        if ! command -v "$cmd" &> /dev/null; then
-            echo "Error: Required command '$cmd' not found. Please install it and rerun the script." >&2
+    local missing=()
+    for cmd in iperf3 jq; do
+        command -v "$cmd" &> /dev/null || missing+=("$cmd")
+    done
+
+    if [[ ${#missing[@]} -gt 0 ]]; then
+        start_spinner "Installing missing dependencies (${missing[*]})..."
+
+        local install_ok=true
+        if command -v apt-get &> /dev/null; then
+            sudo apt-get update -qq &> /dev/null
+            sudo apt-get install -y "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v dnf &> /dev/null; then
+            sudo dnf install -y "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v pacman &> /dev/null; then
+            sudo pacman -S --noconfirm "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v brew &> /dev/null; then
+            brew install "${missing[@]}" &> /dev/null || install_ok=false
+        else
+            stop_spinner ""
+            echo "Error: Could not find a supported package manager (apt-get, dnf, pacman, brew)." >&2
+            echo "Please install manually: ${missing[*]}" >&2
             exit 1
         fi
-    done
+
+        if [[ "$install_ok" == false ]]; then
+            stop_spinner ""
+            echo "Error: Failed to install dependencies." >&2
+            exit 1
+        fi
+
+        for cmd in "${missing[@]}"; do
+            if ! command -v "$cmd" &> /dev/null; then
+                stop_spinner ""
+                echo "Error: Failed to install '$cmd'." >&2
+                exit 1
+            fi
+        done
+
+        stop_spinner "Installing missing dependencies (${missing[*]})... ✓"
+        echo -e "\r\e[36m[ ✓ ]\e[0m Installing ${missing[*]}... done"
+    fi
     
     run_tests
     print_results
