@@ -34,7 +34,7 @@ For each city, there is a primary and a fallback server. The test first checks t
 |------|------|---------|------|--------|
 | Ertelecom Barnaul | Barnaul | st.barnaul.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Kazan | Kazan | kazst.st.mtsws.net | 3333 | ✅ |
@@ -58,7 +58,7 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tomsk | Tomsk | st.tomsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tula | Tula | st.tula.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Tyumen | Tyumen | st.tmn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Tyumen | Tyumen | st.tmn.ertelecom.ru | 5201<br>5202<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Tyumen | Tyumen | tumst.st.mtsws.net | 3333 | ✅ |
 | Ertelecom Ulyanovsk | Ulyanovsk | st.ulsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -78,16 +78,16 @@ For each city, there is a primary and a fallback server. The test first checks t
 | TTK Vladimir | Vladimir | speed-vld.vtt.net | 5201 | ✅ |
 | Beeline Voronezh | Voronezh | voronezh-speedtest.corbina.net | 5201 | ✅ |
 | Beeline Astrakhan | Astrakhan | astrakhan1.speedtest.corbina.net | 5201 | ✅ |
-| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Hostkey Moscow | Moscow | spd-rudp.hostkey.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Moscow | Moscow | mskst.st.mtsws.net | 3333 | ✅ |
 | MTS Krasnodar | Krasnodar | kndst.st.mtsws.net | 3333 | ✅ |
 | MTS Yakutsk | Yakutsk | yktst.st.mtsws.net | 3333 | ✅ |
 
-📅 **Latest test:** 27.05.2026 11:15:49 (MSK, UTC+3)
+📅 **Latest test:** 28.05.2026 11:16:10 (MSK, UTC+3)
 
 ✅ **Available**: 50/50 servers
 
 ❌ **Unavailable**: 0/50 servers
 
-⏱️ **Execution time**: 128.1 seconds
+⏱️ **Execution time**: 146.3 seconds
 
