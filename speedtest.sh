@@ -298,6 +298,16 @@ main() {
         esac
     done
     
+    local base_missing=()
+    for cmd in awk ping; do
+        command -v "$cmd" &> /dev/null || base_missing+=("$cmd")
+    done
+
+    if [[ ${#base_missing[@]} -gt 0 ]]; then
+        echo "Error: Required base utility/utilities missing: ${base_missing[*]}. Please install them first." >&2
+        exit 1
+    fi
+
     local missing=()
     for cmd in iperf3 jq; do
         command -v "$cmd" &> /dev/null || missing+=("$cmd")
@@ -314,11 +324,24 @@ main() {
             sudo dnf install -y "${missing[@]}" &> /dev/null || install_ok=false
         elif command -v pacman &> /dev/null; then
             sudo pacman -S --noconfirm "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v apk &> /dev/null; then
+            local sudo_cmd=""
+            if [[ $EUID -ne 0 ]] && command -v sudo &> /dev/null; then
+                sudo_cmd="sudo"
+            fi
+            $sudo_cmd apk add --no-cache "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v opkg &> /dev/null; then
+            local sudo_cmd=""
+            if [[ $EUID -ne 0 ]] && command -v sudo &> /dev/null; then
+                sudo_cmd="sudo"
+            fi
+            $sudo_cmd opkg update &> /dev/null
+            $sudo_cmd opkg install "${missing[@]}" &> /dev/null || install_ok=false
         elif command -v brew &> /dev/null; then
             brew install "${missing[@]}" &> /dev/null || install_ok=false
         else
             stop_spinner ""
-            echo "Error: Could not find a supported package manager (apt-get, dnf, pacman, brew)." >&2
+            echo "Error: Could not find a supported package manager (apt-get, dnf, pacman, apk, opkg, brew)." >&2
             echo "Please install manually: ${missing[*]}" >&2
             exit 1
         fi
