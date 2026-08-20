@@ -33,7 +33,7 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Name | City | Address | Port | Status |
 |------|------|---------|------|--------|
 | Ertelecom Barnaul | Barnaul | st.barnaul.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -53,7 +53,7 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tomsk | Tomsk | st.tomsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -83,11 +83,11 @@ For each city, there is a primary and a fallback server. The test first checks t
 | MTS Krasnodar | Krasnodar | kndst.st.mtsws.net | 3333 | ✅ |
 | MTS Yakutsk | Yakutsk | yktst.st.mtsws.net | 3333 | ✅ |
 
-📅 **Latest test:** 19.08.2026 07:58:57 (MSK, UTC+3)
+📅 **Latest test:** 20.08.2026 08:00:41 (MSK, UTC+3)
 
 ✅ **Available**: 50/50 servers
 
 ❌ **Unavailable**: 0/50 servers
 
-⏱️ **Execution time**: 136.9 seconds
+⏱️ **Execution time**: 143.3 seconds
 
