@@ -33,10 +33,10 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Name | City | Address | Port | Status |
 |------|------|---------|------|--------|
 | Ertelecom Barnaul | Barnaul | st.barnaul.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5202<br>5203<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5208<br>5209 | ✅ |
-| Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Yekaterinburg | Yekaterinburg | st.ekat.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Izhevsk | Izhevsk | st.izhevsk.ertelecom.ru | 5205<br>5207 | ✅ |
+| Ertelecom Irkutsk | Irkutsk | st.irkutsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Kazan | Kazan | st.kzn.ertelecom.ru | 5201<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Kazan | Kazan | kazst.st.mtsws.net | 3333 | ✅ |
 | Ertelecom Kirov | Kirov | st.kirov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Krasnoyarsk | Krasnoyarsk | st.krsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -48,20 +48,20 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Novosibirsk | Novosibirsk | st.nsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Novokuznetsk | Novokuznetsk | st.nk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Orenburg | Orenburg | st.oren.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Penza | Penza | st.penza.ertelecom.ru | 5201<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Penza | Penza | st.penza.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Perm | Perm | st.perm.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Rostov-on-Don | Rostov-on-Don | st.rostov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Ryazan | Ryazan | st.ryazan.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Samara | Samara | st.samara.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Saint Petersburg | Saint Petersburg | st.spb.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Saratov | Saratov | st.saratov.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tver | Tver | st.tver.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tomsk | Tomsk | st.tomsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Tula | Tula | st.tula.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Tyumen | Tyumen | st.tmn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Tyumen | Tyumen | st.tmn.ertelecom.ru | 5201<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | MTS Tyumen | Tyumen | tumst.st.mtsws.net | 3333 | ✅ |
-| Ertelecom Ulyanovsk | Ulyanovsk | st.ulsk.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Ulyanovsk | Ulyanovsk | st.ulsk.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Ufa | Ufa | st.ufa.ertelecom.ru | 5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Cheboksary | Cheboksary | st.cheb.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Chelyabinsk | Chelyabinsk | st.chel.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Yaroslavl | Yaroslavl | st.yar.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
@@ -70,9 +70,9 @@ For each city, there is a primary and a fallback server. The test first checks t
 | Ertelecom Volgograd | Volgograd | st.volgograd.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Voronezh | Voronezh | st.voronezh.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
 | Ertelecom Nizhny Novgorod | Nizhny Novgorod | st.nn.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
-| Ertelecom Yoshkar-Ola | Yoshkar-Ola | st.yola.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5207<br>5208<br>5209 | ✅ |
+| Ertelecom Yoshkar-Ola | Yoshkar-Ola | st.yola.ertelecom.ru | 5201<br>5202<br>5203<br>5204<br>5205<br>5206<br>5208<br>5209 | ✅ |
 | TTK Volgograd | Volgograd | speed-vgd.vtt.net | 5201 | ✅ |
-| TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ✅ |
+| TTK Nizhny Novgorod | Nizhny Novgorod | speed-nn.vtt.net | 5201 | ❌ |
 | TTK Saratov | Saratov | speed.vtt.net | 5201 | ✅ |
 | TTK Saransk | Saransk | speed-sar.vtt.net | 5201 | ✅ |
 | TTK Vladimir | Vladimir | speed-vld.vtt.net | 5201 | ✅ |
@@ -83,11 +83,11 @@ For each city, there is a primary and a fallback server. The test first checks t
 | MTS Krasnodar | Krasnodar | kndst.st.mtsws.net | 3333 | ✅ |
 | MTS Yakutsk | Yakutsk | yktst.st.mtsws.net | 3333 | ✅ |
 
-📅 **Latest test:** 17.09.2026 12:34:27 (MSK, UTC+3)
+📅 **Latest test:** 18.09.2026 12:07:51 (MSK, UTC+3)
 
-✅ **Available**: 50/50 servers
+✅ **Available**: 49/50 servers
 
-❌ **Unavailable**: 0/50 servers
+❌ **Unavailable**: 1/50 servers
 
-⏱️ **Execution time**: 149.2 seconds
+⏱️ **Execution time**: 207.9 seconds
 
