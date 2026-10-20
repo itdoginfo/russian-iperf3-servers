@@ -85,7 +85,7 @@ start_spinner() {
         local chars=("⠇" "⠏" "⠋" "⠙" "⠹" "⠸" "⠼" "⠴" "⠦" "⠧")
         local i=0
         while true; do
-            printf "\r$message %s" "${chars[$i]}"
+            printf "\r\e[36m[ %s ]\e[0m %s" "${chars[$i]}" "$message"
             i=$(( (i + 1) % ${#chars[@]} ))
             sleep 0.15
         done
@@ -298,13 +298,71 @@ main() {
         esac
     done
     
-    # Check dependencies
-    for cmd in iperf3 jq awk ping; do
-        if ! command -v "$cmd" &> /dev/null; then
-            echo "Error: Required command '$cmd' not found. Please install it and rerun the script." >&2
+    local base_missing=()
+    for cmd in awk ping; do
+        command -v "$cmd" &> /dev/null || base_missing+=("$cmd")
+    done
+
+    if [[ ${#base_missing[@]} -gt 0 ]]; then
+        echo "Error: Required base utility/utilities missing: ${base_missing[*]}. Please install them first." >&2
+        exit 1
+    fi
+
+    local missing=()
+    for cmd in iperf3 jq; do
+        command -v "$cmd" &> /dev/null || missing+=("$cmd")
+    done
+
+    if [[ ${#missing[@]} -gt 0 ]]; then
+        start_spinner "Installing missing dependencies (${missing[*]})..."
+
+        local install_ok=true
+        if command -v apt-get &> /dev/null; then
+            sudo apt-get update -qq &> /dev/null
+            sudo apt-get install -y "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v dnf &> /dev/null; then
+            sudo dnf install -y "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v pacman &> /dev/null; then
+            sudo pacman -S --noconfirm "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v apk &> /dev/null; then
+            local sudo_cmd=""
+            if [[ $EUID -ne 0 ]] && command -v sudo &> /dev/null; then
+                sudo_cmd="sudo"
+            fi
+            $sudo_cmd apk add --no-cache "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v opkg &> /dev/null; then
+            local sudo_cmd=""
+            if [[ $EUID -ne 0 ]] && command -v sudo &> /dev/null; then
+                sudo_cmd="sudo"
+            fi
+            $sudo_cmd opkg update &> /dev/null
+            $sudo_cmd opkg install "${missing[@]}" &> /dev/null || install_ok=false
+        elif command -v brew &> /dev/null; then
+            brew install "${missing[@]}" &> /dev/null || install_ok=false
+        else
+            stop_spinner ""
+            echo "Error: Could not find a supported package manager (apt-get, dnf, pacman, apk, opkg, brew)." >&2
+            echo "Please install manually: ${missing[*]}" >&2
             exit 1
         fi
-    done
+
+        if [[ "$install_ok" == false ]]; then
+            stop_spinner ""
+            echo "Error: Failed to install dependencies." >&2
+            exit 1
+        fi
+
+        for cmd in "${missing[@]}"; do
+            if ! command -v "$cmd" &> /dev/null; then
+                stop_spinner ""
+                echo "Error: Failed to install '$cmd'." >&2
+                exit 1
+            fi
+        done
+
+        stop_spinner "Installing missing dependencies (${missing[*]})... ✓"
+        echo -e "\r\e[36m[ ✓ ]\e[0m Installing ${missing[*]}... done"
+    fi
     
     run_tests
     print_results
